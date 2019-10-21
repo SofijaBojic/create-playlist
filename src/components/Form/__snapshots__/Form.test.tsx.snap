@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button component should render and work correctly with wrong type 1`] = `
+<div
+  class="sc-bdVaJa byomO"
+>
+  <div
+    class="sc-htpNat csdCIQ"
+  >
+    <div
+      class="sc-bxivhb jqGiQm"
+    >
+      <h1
+        class="sc-ifAKCX hybose"
+      >
+        Add video to playlist
+      </h1>
+      <input
+        data-testid="form_file"
+        name="file"
+        placeholder="FILE URL"
+        type="text"
+        value=""
+      />
+      <input
+        data-testid="form_image"
+        name="image"
+        placeholder="IMAGE URL"
+        type="text"
+        value=""
+      />
+      <input
+        data-testid="form_title"
+        name="title"
+        placeholder="VIDEO TITLE"
+        type="text"
+        value=""
+      />
+      <button
+        class="sc-bwzfXH dQVdn"
+        data-testid="form_button"
+      >
+        Click
+      </button>
+    </div>
+  </div>
+</div>
+`;

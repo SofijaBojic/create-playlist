@@ -1,0 +1,133 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render app component should render correctly 1`] = `
+<div
+  class="sc-EHOje hYqJbH"
+>
+  <div
+    class="sc-bdVaJa oyubG"
+    data-testid="header"
+  >
+    <div
+      class="sc-bwzfXH fdtMAf"
+    >
+      <h1
+        class="sc-htpNat dPwQZR"
+      >
+        CREATE AND PLAY YOUR PLAYLIST - JWPlayer
+      </h1>
+    </div>
+  </div>
+  <div
+    class="sc-gzVnrw hKqRkh"
+  >
+    <div
+      class="sc-htoDjs itofIR"
+    >
+      <div
+        class="sc-dnqmqq kRNAFZ"
+      >
+        <div>
+          <div
+            id="my-jw-player-instance"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="sc-gzVnrw hKqRkh"
+  >
+    <div
+      class="sc-htoDjs hesBRA"
+    >
+      <div
+        class="sc-iwsKbI iUecFn"
+      >
+        <div
+          class="sc-gzVnrw hKqRkh"
+        >
+          <div
+            class="sc-htoDjs hesBRA"
+          >
+            <h1
+              class="sc-htpNat dPwQZR"
+            >
+              Add video to playlist
+            </h1>
+            <input
+              name="file"
+              placeholder="FILE URL"
+              type="text"
+              value=""
+            />
+            <input
+              name="image"
+              placeholder="IMAGE URL"
+              type="text"
+              value=""
+            />
+            <input
+              name="title"
+              placeholder="VIDEO TITLE"
+              type="text"
+              value=""
+            />
+            <button
+              class="sc-gZMcBi jQIREk"
+            >
+              Click
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="sc-gzVnrw hKqRkh"
+      >
+        <div
+          class="sc-htoDjs hesBRA"
+        >
+          <div
+            class="sc-gqjmRU lflJjS"
+          >
+            <div
+              class="sc-VigVT kxOMkU"
+            >
+              <img
+                class="sc-jTzLTM cKNefD"
+                src="//content.jwplatform.com/thumbs/iLwfYW2S-720.jpg"
+              />
+              <div
+                class="sc-fjdhpX ysBeb"
+              >
+                <h3
+                  class="sc-bxivhb BEcKO"
+                >
+                  Road Trip
+                </h3>
+              </div>
+            </div>
+            <div
+              class="sc-VigVT kxOMkU"
+            >
+              <img
+                class="sc-jTzLTM bLdRPl"
+                src="//content.jwplatform.com/thumbs/8TbJTFy5-720.jpg"
+              />
+              <div
+                class="sc-fjdhpX ysBeb"
+              >
+                <h3
+                  class="sc-bxivhb BEcKO"
+                >
+                  Hiking on the Edge
+                </h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -3,13 +3,24 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@testing-library/react": "^9.3.0",
     "@types/jest": "24.0.19",
     "@types/node": "12.11.1",
     "@types/react": "16.9.9",
     "@types/react-dom": "16.9.2",
+    "@types/react-redux": "^7.1.5",
+    "@types/styled-components": "^4.1.19",
+    "install": "^0.13.0",
+    "jest-styled-components": "^6.3.3",
+    "npm": "^6.12.0",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
+    "react-jw-player": "^1.19.0",
+    "react-redux": "^7.1.1",
     "react-scripts": "3.2.0",
+    "redux": "^4.0.4",
+    "redux-thunk": "^2.3.0",
+    "styled-components": "^4.4.0",
     "typescript": "3.6.4"
   },
   "scripts": {
@@ -31,6 +42,14 @@
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
+    ]
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx,ts,tsx}",
+      "!src/index.tsx",
+      "!src/**/*.style.ts",
+      "!src/**/index.ts"
     ]
   }
 }
