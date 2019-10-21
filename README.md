@@ -28,7 +28,7 @@ project is created using :
 
 - The project represents app for making a personal playlist using jwplayer. It has one page (Main component). 
 - The store contains the playlist and index of active video (since there is no API, an index is used instead of id).
-- reducer: actions for adding item in the playlist and setting index of the active video.
+- Reducer: actions types for adding item in the playlist and setting index of the active video.
 Layout: 
 - Header component - shows title.
 - Player component - plays the playlist from the store. When the new video starts -action "setActiveVideo" will be dispatched.  It'll set active video.
